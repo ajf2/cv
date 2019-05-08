@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-soft-skills',
@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./soft-skills.component.scss']
 })
 export class SoftSkillsComponent implements OnInit {
+
+  @Input()
+  softSkills: string[];
 
   constructor() { }
 

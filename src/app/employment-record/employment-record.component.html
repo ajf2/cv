@@ -1,3 +1,5 @@
-<p>
-  employment-record works!
-</p>
+<h5>{{employmentRecord.employerName}}</h5>
+<h6>{{employmentRecord.era}}</h6>
+<ul>
+  <li *ngFor="let experience of employmentRecord.experiences">{{experience}}</li>
+</ul>

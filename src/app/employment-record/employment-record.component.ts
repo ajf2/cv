@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { EmploymentRecord } from './employment-record';
 
 @Component({
   selector: 'app-employment-record',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./employment-record.component.scss']
 })
 export class EmploymentRecordComponent implements OnInit {
+
+  employmentRecord: EmploymentRecord;
 
   constructor() { }
 

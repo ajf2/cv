@@ -1,3 +1,5 @@
-<p>
-  cv works!
-</p>
+<app-header [name]="cvData.name" [nameSuffix]="cvData.nameSuffix" [jobTitle]="cvData.jobTitle"></app-header>
+<app-personal-summary [personalSummary]="cvData.personalSummary"></app-personal-summary>
+<app-employment-history [employmentHistory]="cvData.employmentHistory"></app-employment-history>
+<app-soft-skills [softSkills]="cvData.softSkills"></app-soft-skills>
+<app-tech-skills [techSkills]="cvData.techSkills"></app-tech-skills>

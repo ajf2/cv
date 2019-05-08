@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-tech-skills',
@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tech-skills.component.scss']
 })
 export class TechSkillsComponent implements OnInit {
+
+  @Input()
+  techSkills: string[];
 
   constructor() { }
 
