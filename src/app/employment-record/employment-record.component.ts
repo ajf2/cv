@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { EmploymentRecord } from './employment-record';
 
 @Component({
@@ -8,6 +8,7 @@ import { EmploymentRecord } from './employment-record';
 })
 export class EmploymentRecordComponent implements OnInit {
 
+  @Input()
   employmentRecord: EmploymentRecord;
 
   constructor() { }
