@@ -1,0 +1,25 @@
+{
+	"name": "Mr Adrian Flood",
+	"nameSuffix": "BSc (Hons) Computer Science",
+	"jobTitle": "Software Engineer",
+	"softSkills": [
+    "talking"
+	],
+	"techSkills": [
+    "Angular"
+	],
+	"employmentHistory": [{
+		"employerName": "Company 1",
+		"era": "2011-2015",
+		"experiences": [
+      "web app"
+		]
+  }, {
+		"employerName": "ompany 2",
+		"era": "2015-2019",
+		"experiences": [
+      "data importer"
+		]
+  }],
+	"personalSummary": "I am a software engineer."
+}
