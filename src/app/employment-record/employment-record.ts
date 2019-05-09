@@ -1,5 +1,7 @@
+import { EmploymentExperience } from '../employment-experience/employment-experience';
+
 export interface EmploymentRecord {
   employerName: string;
   era: string;
-  experiences: string[];
+  experiences: EmploymentExperience[];
 }

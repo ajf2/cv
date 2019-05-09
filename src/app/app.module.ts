@@ -10,6 +10,7 @@ import { HeaderComponent } from './header/header.component';
 import { PersonalSummaryComponent } from './personal-summary/personal-summary.component';
 import { SoftSkillsComponent } from './soft-skills/soft-skills.component';
 import { TechSkillsComponent } from './tech-skills/tech-skills.component';
+import { EmploymentExperienceComponent } from './employment-experience/employment-experience.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { TechSkillsComponent } from './tech-skills/tech-skills.component';
     HeaderComponent,
     PersonalSummaryComponent,
     SoftSkillsComponent,
-    TechSkillsComponent
+    TechSkillsComponent,
+    EmploymentExperienceComponent
   ],
   imports: [
     BrowserModule,
