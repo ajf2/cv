@@ -1,5 +1,5 @@
-<h5>{{employmentRecord.employerName}}</h5>
-<h6>{{employmentRecord.era}}</h6>
+<h3 class="employment-era">{{employmentRecord.era}}</h3>
+<h3 class="employer">{{employmentRecord.employerName}}</h3>
 <ul>
   <li *ngFor="let experience of employmentRecord.experiences">
     <app-employment-experience [experience]="experience"></app-employment-experience>
