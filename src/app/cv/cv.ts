@@ -4,8 +4,10 @@ export interface CV {
   name: string;
   nameSuffix: string;
   jobTitle: string;
-  softSkills: string[];
-  techSkills: string[];
+  telephone: string;
+  githubLink: string;
+  skills: string[];
+  tech: string[];
   employmentHistory: EmploymentRecord[];
   personalSummary: string;
 }

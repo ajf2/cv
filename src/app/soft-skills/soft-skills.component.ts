@@ -8,7 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class SoftSkillsComponent implements OnInit {
 
   @Input()
-  softSkills: string[];
+  skills: string[];
 
   constructor() { }
 

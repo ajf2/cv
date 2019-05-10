@@ -3,5 +3,6 @@ import { EmploymentExperience } from '../employment-experience/employment-experi
 export interface EmploymentRecord {
   employerName: string;
   era: string;
+  website: string;
   experiences: EmploymentExperience[];
 }

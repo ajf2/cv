@@ -8,7 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class TechSkillsComponent implements OnInit {
 
   @Input()
-  techSkills: string[];
+  tech: string[];
 
   constructor() { }
 

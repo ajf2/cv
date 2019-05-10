@@ -1,11 +1,12 @@
-<app-header [name]="cvData.name" [nameSuffix]="cvData.nameSuffix" [jobTitle]="cvData.jobTitle"></app-header>
+<app-header [name]="cvData.name" [nameSuffix]="cvData.nameSuffix" [jobTitle]="cvData.jobTitle"
+  [telephone]="cvData.telephone" [githubLink]="cvData.githubLink"></app-header>
 <div class="flex-container">
   <div class="flex-item-1">
     <app-employment-history [employmentHistory]="cvData.employmentHistory"></app-employment-history>
   </div>
   <div class="flex-item-2">
     <app-personal-summary [personalSummary]="cvData.personalSummary"></app-personal-summary>
-    <app-soft-skills [softSkills]="cvData.softSkills"></app-soft-skills>
-    <app-tech-skills [techSkills]="cvData.techSkills"></app-tech-skills>
+    <app-soft-skills [skills]="cvData.skills"></app-soft-skills>
+    <app-tech-skills [tech]="cvData.tech"></app-tech-skills>
   </div>
 </div>
