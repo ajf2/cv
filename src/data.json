@@ -13,17 +13,6 @@
   ],
   "employmentHistory": [
     {
-      "employerName": "Company 1",
-      "era": "2011-2015",
-      "website": "",
-      "experiences": [
-        {
-          "name": "web app",
-          "summary": "Wrote an Angular app."
-        }
-      ]
-    },
-    {
       "employerName": "Company 2",
       "era": "2015-2019",
       "website": "",
@@ -31,6 +20,17 @@
         {
           "name": "data importer",
           "summary": "Wrote an app to automatically import data."
+        }
+      ]
+    },
+    {
+      "employerName": "Company 1",
+      "era": "2011-2015",
+      "website": "",
+      "experiences": [
+        {
+          "name": "web app",
+          "summary": "Wrote an Angular app."
         }
       ]
     }
