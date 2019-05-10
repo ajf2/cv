@@ -1,3 +1,9 @@
 <h1 class="name">{{name}}</h1>
 <h2 class="suffix">{{nameSuffix}}</h2>
 <h3 class="job-title">{{jobTitle}}</h3>
+<div class="telephone">
+  <span class="fas fa-phone"></span><a type="telephone" [href]="'tel:' + telephone"> {{telephone}}</a>
+</div>
+<div class="github-link">
+  <span class="fab fa-github"></span><a [href]="githubLink"> {{githubLink}}</a>
+</div>
