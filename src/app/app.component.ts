@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { Observable } from 'rxjs';
+import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Observable, Subscription } from 'rxjs';
 import { tap } from 'rxjs/operators';
 
 import { CV } from './cv/cv';
@@ -10,15 +10,19 @@ import { CvDataService } from './cv-data.service';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent implements OnInit {
+export class AppComponent implements OnInit, OnDestroy {
 
-  cvData$: Observable<CV>;
+  cvData: CV;
+  sub: Subscription;
 
   constructor(private cvDataService: CvDataService) { }
 
   ngOnInit() {
-    this.cvData$ = this.cvDataService.getCvData().pipe(
-      tap(data => console.log(data))
-    );
+    this.sub = this.cvDataService.getCvData()
+      .subscribe(data => this.cvData = data);
+  }
+
+  ngOnDestroy(): void {
+    this.sub.unsubscribe();
   }
 }

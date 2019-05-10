@@ -1,1 +1,3 @@
-<app-cv [cvData]="cvData$ | async">
+<div *ngIf="cvData != null">
+  <app-cv [cvData]="cvData"></app-cv>
+</div>
