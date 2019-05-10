@@ -11,6 +11,7 @@ export class HeaderComponent implements OnInit {
   @Input() nameSuffix: string;
   @Input() jobTitle: string;
   @Input() telephone: string;
+  @Input() email: string;
   @Input() githubLink: string;
 
   constructor() { }

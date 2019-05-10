@@ -5,6 +5,7 @@ export interface CV {
   nameSuffix: string;
   jobTitle: string;
   telephone: string;
+  email: string;
   githubLink: string;
   skills: string[];
   tech: string[];
