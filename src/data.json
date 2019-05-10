@@ -2,16 +2,19 @@
   "name": "Mr Adrian Flood",
   "nameSuffix": "BSc (Hons) Computer Science",
   "jobTitle": "Software Engineer",
-  "softSkills": [
+  "telephone": "on request",
+  "githubLink": "https://github.com/ajf2",
+  "skills": [
     "talking"
   ],
-  "techSkills": [
+  "tech": [
     "Angular"
   ],
   "employmentHistory": [
     {
       "employerName": "Company 1",
       "era": "2011-2015",
+      "website": "",
       "experiences": [
         {
           "name": "web app",
@@ -22,6 +25,7 @@
     {
       "employerName": "Company 2",
       "era": "2015-2019",
+      "website": "",
       "experiences": [
         {
           "name": "data importer",
