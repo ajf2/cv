@@ -16,4 +16,8 @@ export class EmploymentHistoryComponent implements OnInit {
   ngOnInit() {
   }
 
+  isLastRecord(index: number): boolean {
+    return index === this.employmentHistory.length - 1;
+  }
+
 }

@@ -1,4 +1,4 @@
-<div class="employment-record">
+<div [ngClass]="{'page-break': !isLast}">
   <h3 class="employment-era">{{employmentRecord.era}}</h3>
   <h3 class="employer">{{employmentRecord.employerName}}</h3>
   <ul>

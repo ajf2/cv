@@ -8,8 +8,8 @@ import { EmploymentRecord } from './employment-record';
 })
 export class EmploymentRecordComponent implements OnInit {
 
-  @Input()
-  employmentRecord: EmploymentRecord;
+  @Input() employmentRecord: EmploymentRecord;
+  @Input() isLast: boolean;
 
   constructor() { }
 

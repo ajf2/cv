@@ -1,3 +1,4 @@
 <h2>Employment History</h2>
-<app-employment-record *ngFor="let employmentRecord of employmentHistory" [employmentRecord]="employmentRecord">
+<app-employment-record *ngFor="let employmentRecord of employmentHistory; index as i"
+  [employmentRecord]="employmentRecord" [isLast]="isLastRecord(i)">
 </app-employment-record>
