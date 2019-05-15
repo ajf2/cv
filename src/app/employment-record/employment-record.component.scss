@@ -8,3 +8,9 @@
   display: inline;
   font-size: small;
 }
+
+@media print {
+  .employment-record {
+    page-break-after: always;
+  }
+}
